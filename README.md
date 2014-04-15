@@ -1,4 +1,4 @@
 drupal-theme-clioinfra
 ======================
 
-Themeing for Clio Infra
+Theme for Clio Infra
