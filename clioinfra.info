@@ -21,7 +21,7 @@ description = Clio-infra theme, based on Zen.
 
 core        = 7.x
 base theme  = zen
-
+version = 7.x-1.0
 
 
 ; This section controls the CSS files for your theme. There are 3 different
