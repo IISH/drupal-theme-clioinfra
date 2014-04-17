@@ -104,11 +104,12 @@ h2.block-title { /* Block title */
 #block-user-online { /* "Who's online" block for a list of the online users */
 }
 
-#block-block-4 {
+/* Partners */
+#block-block-2 {
   margin: 10px;
   background-color: #DCDCDC;
 }
-#block-block-4 h2.block-title {
+#block-block-2 h2.block-title {
   text-transform: lowercase;
   font-size: 1em;
   line-height: inherit;
@@ -116,7 +117,7 @@ h2.block-title { /* Block title */
   background-color: #38378A;
   padding-left: 5px;
 }
-#block-block-4 div.sponsorlogo {
+#block-block-2 div.sponsorlogo {
   display: inline-block;
   margin: 15px 10px 15px 15px;
 }
@@ -154,12 +155,13 @@ h2.block-title { /* Block title */
   padding-right: 40px;
 }
 
-#block-block-6 h2.block-title {
+/* Visualize */
+#block-block-1 h2.block-title {
   color: #fff;
   background-color: #B1007C;
   padding-left: 10px;
 }
-#block-block-6 p {
+#block-block-1 p {
   margin: 0;
 }
 
