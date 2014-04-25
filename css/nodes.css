@@ -371,3 +371,25 @@ body.page-datasets-searchresults .search-submit a:hover {
   text-decoration: none;
 }
 
+
+/* Hack dataset and resource edit form */
+
+#edit-field-upload-und-0-view--2,
+#form-item-field-upload-und-0-delimiter,
+#form-item-field-upload-und-0-embed,
+#data-and-resources .btn-primary,
+.group_additional {
+  display: none;
+}
+
+.field-name-field-indicator .field-label,
+.field-name-field-working-paper .field-label {
+  width: 10em;
+}
+
+.view-available-datasets table {
+  width: 100%;
+}
+
+
+
