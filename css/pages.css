@@ -312,7 +312,7 @@ body.page-datasets-searchresults th,
 body.page-datasets-searchresults .search-submit, 
 body.page-datasets-countries #content .view-countries .view-content > .item-list > ul > li > .views-field-name, 
 #footer {
-  font-family: 'Questrial';
+  font-family: 'Questrial', 'Helvetica', sans-serif;
 }
 
 
