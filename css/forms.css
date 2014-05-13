@@ -366,4 +366,10 @@ body.page-datasets-searchresults .filters {
   outline: none;
 }
 
+.page-datasets-select .select-message,
+.page-datasets-combined .select-message {
+  float: left;
+  margin: 1.5em 0;
+  color: #666;
+}
 
