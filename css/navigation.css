@@ -104,8 +104,8 @@ body.section-news-publications #main-menu ul li.active-trail,
 body.section-news-publications #block-menu-block-1 {
   background-color: #C40E1F;
 }
-body.section-about-clio-infra #main-menu ul li.active-trail,
-body.section-about-clio-infra #block-menu-block-1 {
+body.section-about #main-menu ul li.active-trail,
+body.section-about #block-menu-block-1 {
   background-color: #D9B500;
 }
 body.section-partners #main-menu ul li.active-trail,
@@ -138,9 +138,9 @@ body.section-contact #block-menu-block-1 {
   background-color: #DCDCDC;
 }
 */
-#main-menu ul li.menu-369, /* about */
-#main-menu ul li.menu-746, /* partners */
-#main-menu ul li.menu-747 { /* contact */
+#main-menu ul li.menu-514, /* about */
+#main-menu ul li.menu-515, /* partners */
+#main-menu ul li.menu-516 { /* contact */
   background-color: #DCDCDC;
 }
 #main-menu ul.links li,

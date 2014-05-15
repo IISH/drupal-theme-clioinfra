@@ -277,7 +277,9 @@ body.page-datasets-searchresults .filters {
   width: 4em;
 }
 #edit-country-wrapper,
-#edit-indicator-wrapper {
+#edit-indicator-wrapper,
+#clio-search-select-form .form-item-country,
+#clio-search-select-form .form-item-indicator {
   width: 400px;
 }
 /* 20140414
@@ -285,6 +287,37 @@ body.page-datasets-searchresults .filters {
   clear: left;
 }
 */
+#clio-search-select-form .form-item-year-min,
+#clio-search-select-form .form-item-year-max,
+#clio-search-select-form .form-item-country,
+#clio-search-select-form .form-item-indicator {
+  float: left;
+}
+#clio-search-select-form .form-item-year-min,
+#clio-search-select-form .form-item-year-max,
+#clio-search-select-form .form-submit {
+  margin-right: 10px; 
+}
+#clio-search-select-form .form-submit {
+  margin-top: 10px; 
+}
+
+#clio-search-select-form .form-item-year-min label,
+#clio-search-select-form .form-item-year-max label,
+#clio-search-select-form .form-item-country label,
+#clio-search-select-form .form-item-indicator label {
+  font-weight: normal;
+  font-size: 18px;
+  padding-bottom: 5px;
+  text-transform: lowercase;
+}
+
+#clio-search-select-form input,
+#clio-search-select-form select {
+  border-radius: 0;
+  border: 1px solid #96BD0D;
+}
+
 
 #edit-country-wrapper .bef-tree li,
 #edit-indicator-wrapper .bef-tree li {
@@ -333,4 +366,10 @@ body.page-datasets-searchresults .filters {
   outline: none;
 }
 
+.page-datasets-select .select-message,
+.page-datasets-combined .select-message {
+  float: left;
+  margin: 1.5em 0;
+  color: #666;
+}
 

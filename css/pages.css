@@ -271,3 +271,49 @@ body.front h1#page-title {
   display: none;
 }
 
+
+/* Font; needs clean up */
+
+#main-menu, 
+#secondary-menu, 
+#block-menu-menu-login, 
+#block-menu-block-1, 
+ul.menu, 
+.breadcrumb, 
+.region-partners .block-title, 
+.views-more-link, 
+.views-field-nothing a, 
+.view-slideshow .views-row, 
+.archive-title, 
+.datasets.searchpage input, 
+#datasets-upload input, 
+.startletter, 
+.coltitle, 
+.topic-title, 
+.topics, 
+.indicator-intro, 
+#datasets-download-form input, 
+#datasets-download-form #edit-cancel, 
+.indicator-block .blockname, 
+.indicator-buttons a,
+body.page-datasets-indicators #content .view-indicators .view-content > .item-list > ul > li > .views-field-name, 
+body.page-datasets-select #content .views-exposed-form #edit-submit-data, 
+body.page-datasets-combined #content .views-exposed-form #edit-submit-data,
+#clio-search-select-form #edit-submit,
+#clio-search-select-form .form-item-year-min label,
+#clio-search-select-form .form-item-year-max label,
+#clio-search-select-form .form-item-country label,
+#clio-search-select-form .form-item-indicator label,
+#edit-year-min,
+#edit-year-max,
+body.page-datasets-combined #content #edit-country-wrapper > label,
+body.page-datasets-combined #content #edit-indicator-wrapper > label, 
+body.page-datasets-searchresults th, 
+body.page-datasets-searchresults .search-submit, 
+body.page-datasets-countries #content .view-countries .view-content > .item-list > ul > li > .views-field-name, 
+#footer {
+  font-family: 'Questrial', 'Helvetica', sans-serif;
+}
+
+
+
