@@ -404,16 +404,6 @@ body.page-datasets-searchresults .search-submit a:hover {
 }
 
 
-/* Hack dataset and resource edit form */
-
-#edit-field-upload-und-0-view,
-#form-item-field-upload-und-0-delimiter,
-#form-item-field-upload-und-0-embed,
-#data-and-resources .btn-primary,
-.group_additional {
-  display: none;
-}
-
 .field-name-field-indicator .field-label,
 .field-name-field-working-paper .field-label {
   width: 10em;
@@ -422,6 +412,5 @@ body.page-datasets-searchresults .search-submit a:hover {
 .view-available-datasets table {
   width: 100%;
 }
-
 
 
