@@ -413,4 +413,12 @@ body.page-datasets-searchresults .search-submit a:hover {
   width: 100%;
 }
 
+/**** hack ****/
+.recline-embed {
+  height: 10px;
+}
+.recline-embed .embed-link {
+  display: none;
+}
+
 
