@@ -284,6 +284,11 @@ body.page-datasets-countries #content ul.country-list .startletter {
   line-height: 1.9em;
   font-size: 16px;
 }
+body.page-datasets-indicators #content .view-indicators .view-content > .item-list > ul > li > .views-field-name a:hover {
+  cursor: default;
+  text-decoration: none;
+}
+
 body.page-datasets-countries #content .view-countries .view-content > .item-list > ul > li > .item-list > ul > li > .views-field-name,
 body.page-datasets-countries #content ul.country-list li li {
   background-color: #ADC656;
@@ -345,7 +350,7 @@ body.page-datasets-combined #content .views-exposed-form .views-submit-button {
 }
 body.page-datasets-select #content .views-exposed-form .views-submit-button input[type="submit"],
 body.page-datasets-combined #content .views-exposed-form .views-submit-button input[type="submit"],
-body.page-datasets-searchresults .search-submit a,
+body.page-datasets-searchresults .search-submit input,
 #clio-search-select-form #edit-submit {
   background: url("../images/pijltje.png") no-repeat scroll right top #FFFFFF;
   border: 0 none;
@@ -387,11 +392,8 @@ body.page-datasets-searchresults .searchresults tr {
     border-bottom: 2px solid #FFFFFF;
     line-height: 1.1em;
 }
-body.page-datasets-searchresults .search-submit a {
+body.page-datasets-searchresults .search-submit input {
   color: #000;
-}
-body.page-datasets-searchresults .search-submit a:hover {
-  text-decoration: none;
 }
 
 #clio-search-select-form {
