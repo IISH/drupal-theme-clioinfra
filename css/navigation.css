@@ -131,9 +131,9 @@ body.section-contact #block-menu-block-1 {
 #main-menu ul li {
   background-color: #B0B0B0;
 }
-#main-menu ul li.menu-514, /* about */
-#main-menu ul li.menu-515, /* partners */
-#main-menu ul li.menu-516 { /* contact */
+#main-menu ul li:nth-last-child(3), /* about */
+#main-menu ul li:nth-last-child(2), /* partners */
+#main-menu ul li:nth-last-child(1) { /* contact */
   background-color: #DCDCDC;
 }
 #main-menu ul.links li,
