@@ -424,3 +424,7 @@ body.page-datasets-searchresults .search-submit input {
 }
 
 
+table.group_additional th.field-label {
+  vertical-align: top;
+}
+
