@@ -352,6 +352,7 @@ body.page-datasets-select #content .views-exposed-form .views-submit-button inpu
 body.page-datasets-combined #content .views-exposed-form .views-submit-button input[type="submit"],
 body.page-datasets-searchresults .search-submit input,
 #clio-search-select-form #edit-submit {
+  clear: left;
   background: url("../images/pijltje.png") no-repeat scroll right top #FFFFFF;
   border: 0 none;
   float: right;
@@ -360,6 +361,22 @@ body.page-datasets-searchresults .search-submit input,
   margin-bottom: 10px;
   padding-right: 40px;
   text-transform: lowercase;
+}
+
+.search-submit-download input,
+.search-submit-visualize input {
+  background: #96bd0d none repeat scroll 0 0;
+  border: 1px solid #96bd0d;
+  color: #fff;
+  font-family: "Questrial","Helvetica",sans-serif;
+  padding: 2px 10px 1px;
+  margin: 1px 5px 1px 0;
+  text-transform: lowercase;
+}
+.search-submit-download input:hover,
+.search-submit-visualize input:hover {
+  background-color:  transparent;
+  color: #000;
 }
 
 body.page-datasets-combined #edit-year-min,

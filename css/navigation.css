@@ -200,7 +200,7 @@ body.section-contact #block-menu-block-1 {
   padding: 0;
 }
 #block-menu-menu-footer-menu ul li {
-  display: inline;
+  display: block;
   text-transform: lowercase;
   margin-right: 10px;
 }
