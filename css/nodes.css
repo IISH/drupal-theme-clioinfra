@@ -12,7 +12,7 @@
 body.section-datasets .node {
   border-top: 5px solid #96BD0D;
 }
-body.section-visualize .node {
+body.section-analyze .node {
   border-top: 5px solid #B1007C;
 }
 body.section-news-publications .node {
@@ -364,7 +364,7 @@ body.page-datasets-searchresults .search-submit input,
 }
 
 .search-submit-download input,
-.search-submit-visualize input {
+.search-submit-analyze input {
   background: #96bd0d none repeat scroll 0 0;
   border: 1px solid #96bd0d;
   color: #fff;
@@ -374,7 +374,7 @@ body.page-datasets-searchresults .search-submit input,
   text-transform: lowercase;
 }
 .search-submit-download input:hover,
-.search-submit-visualize input:hover {
+.search-submit-analyze input:hover {
   background-color:  transparent;
   color: #000;
 }
