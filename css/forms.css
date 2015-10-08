@@ -306,24 +306,44 @@ body.page-datasets-searchresults .filters {
   color: #666;
 }
 
-
+#clio-search-type-form {
+  border-bottom: 1px solid #bbbbbb;
+  margin: 1em 0 1.5em;
+}
+#clio-search-type-form input.form-submit {
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  padding: 0 1em;
+  text-align: center;
+  margin-right: 4px;
+}    
+#clio-search-type-form input.form-submit,
 .page-datasets-search ul.primary li {
   border-style: none;
   text-shadow: none;
   text-transform: lowercase;
 }
+#clio-search-type-form input.form-submit,
 .page-datasets-search ul.primary a {
   font-family: "Questrial","Helvetica",sans-serif;
   border-width: 0;
 }
+#clio-search-type-form input.form-submit,
 .page-datasets-search ul.primary a:link, ul.primary a:visited {
   background-color: #dcdcdc;
   border-radius: 0;
 }
+#clio-search-type-form .active input.form-submit,
 .page-datasets-search ul.primary a.active {
   background-color: #96bd0d;
   background-image: none;
 }
+#clio-search-type-form input.form-submit,
 .page-datasets-search ul.primary a:hover, ul.primary a:focus {
   background-color: #e9e9e9;
+}
+
+a#select-all-countries,
+a#deselect-all-countries {
+  color: #96bd0d;
 }
