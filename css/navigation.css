@@ -82,7 +82,7 @@ li a.active {
   border-bottom: 5px solid #B0B0B0;
 }
 body.section-datasets #main-menu,
-body.section-visualize #main-menu {
+body.section-analyze #main-menu {
   border: 0;
 }
 
@@ -96,8 +96,8 @@ body.section-datasets #main-menu ul li.active-trail,
 body.section-datasets #block-menu-block-1 {
   background-color: #96BD0D;
 }
-body.section-visualize #main-menu ul li.active-trail,
-body.section-visualize #block-menu-block-1 {
+body.section-analyze #main-menu ul li.active-trail,
+body.section-analyze #block-menu-block-1 {
   background-color: #B1007C;
 }
 body.section-news-publications #main-menu ul li.active-trail,
@@ -200,7 +200,7 @@ body.section-contact #block-menu-block-1 {
   padding: 0;
 }
 #block-menu-menu-footer-menu ul li {
-  display: inline;
+  display: block;
   text-transform: lowercase;
   margin-right: 10px;
 }

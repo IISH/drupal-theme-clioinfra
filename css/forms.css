@@ -177,10 +177,14 @@ body.page-datasets-searchresults .filters {
 .form-item-year-max input {
   width: 4em;
 }
-#edit-country-wrapper,
 #edit-indicator-wrapper,
-#clio-search-select-form .form-item-country,
 #clio-search-select-form .form-item-indicator {
+  width: 500px;
+  margin-right: 20px;
+  clear: left;
+}
+#edit-country-wrapper,
+#clio-search-select-form .form-item-country {
   width: 400px;
 }
 #clio-search-select-form .form-item-year-min,
@@ -193,9 +197,6 @@ body.page-datasets-searchresults .filters {
 #clio-search-select-form .form-item-year-max,
 #clio-search-select-form .form-submit {
   margin-right: 10px; 
-}
-#clio-search-select-form .form-submit {
-  margin-top: 10px; 
 }
 
 #clio-search-select-form .form-item-year-min label,
@@ -213,6 +214,55 @@ body.page-datasets-searchresults .filters {
 #clio-search-select-form select {
   border-radius: 0;
   border: 1px solid #96BD0D;
+}
+
+#clio-search-select-form .ms-selectable input {
+  margin-bottom: 2px;
+  width: 98%;
+}
+#clio-search-select-form #ms-edit-indicator {
+  width: 480px;
+}
+#clio-search-select-form #ms-edit-country {
+  width: 380px;
+}
+#clio-search-select-form .ms-container .ms-list {
+  border-radius: 0;
+  border-color: #96bd0d;
+}
+#clio-search-select-form .ms-container .ms-selection {
+  margin-top: 1.6em;
+}
+#clio-search-select-form #ms-edit-indicator .ms-selection,
+#clio-search-select-form #ms-edit-indicator .ms-selectable {
+  width: 46%;
+}
+
+#clio-search-select-form .ms-container .ms-selectable input {
+  background: rgba(0, 0, 0, 0) url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAYAAABSgIzaAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wcHDDo0DUwzWwAAASVJREFUKM990r9Ll2EUBfDP+80UAiFcGkPcxcUMwkla2iMdrvKg/RNB0JCjc7b4DhdpL2gOavgSjuLmIm35s6FEoxp6/PIq4pke7r2Hc869TwNtJjzCGmb8xyleYKNEnLSZSoQLNG1mg+d4W2vvcYwpTOIrnpSIAx30MI51HOA+nmEFc3iHB9joOBsQF9BgqUTs4bREnJeIfSzjG2bbzImu1R7u4Sf63Rz1/QtbGKlzl4gwVFWvwyj+Xi320McwFrtWSoQ2c7pmPMJ2lziED9jFWpt5F4nveIyXVXGnRPzoEpua5yG+4BYOcY4x3K5zv/GqRKwOrNYl9HEHb+oNz/AJT/G5OnvdZi5dVbz0K7poM3vYxHzN3gy2egNJifhT77mJjxe9f3zpYQgu6FTOAAAAAElFTkSuQmCC") no-repeat scroll right center;
+}
+
+#clio-search-select-form .ms-container .ms-selectable input, 
+#clio-search-select-form .ms-container .ms-selectable li.ms-elem-selectable, 
+#clio-search-select-form .ms-container .ms-selection li.ms-elem-selection,
+#clio-search-select-form .ms-container .ms-optgroup-label {
+  font-size: inherit;
+  font-family: "Questrial","Helvetica",sans-serif;
+}
+#clio-search-select-form #ms-edit-indicator .ms-optgroup-label {
+  background-color: #ccc;
+  color: #fff;
+  cursor: default;
+}
+
+#clio-search-select-form .ms-container .ms-selectable li.ms-hover,
+#clio-search-select-form .ms-container .ms-selection li.ms-hover {
+  background-color: #96bd0d;
+}
+
+#clio-search-select-form .ms-container .ms-list.ms-focus {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #96bd0d;
+  /* box-sahdow: none; */
 }
 
 #edit-country-wrapper .bef-tree li,
@@ -240,10 +290,70 @@ body.page-datasets-searchresults .filters {
   outline: none;
 }
 
+.page-datasets-search .select-message,
 .page-datasets-select .select-message,
 .page-datasets-combined .select-message {
+  clear: left;
   float: left;
   margin: 1.5em 0;
   color: #666;
 }
+.select-help {
+  margin: 1em 0 0;
+  color: #666;
+  font-family: "Questrial","Helvetica",sans-serif;
+}
 
+#clio-search-type-form {
+  border-bottom: 1px solid #bbbbbb;
+  margin: 1em 0 1.5em;
+}
+#clio-search-type-form input.form-submit {
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  padding: 0 1em;
+  text-align: center;
+  margin-right: 4px;
+}    
+#clio-search-type-form input.form-submit,
+.page-datasets-search ul.primary li {
+  border-style: none;
+  text-shadow: none;
+  text-transform: lowercase;
+}
+#clio-search-type-form input.form-submit,
+.page-datasets-search ul.primary a {
+  font-family: "Questrial","Helvetica",sans-serif;
+  border-width: 0;
+}
+#clio-search-type-form input.form-submit,
+.page-datasets-search ul.primary a:link, ul.primary a:visited {
+  background-color: #dcdcdc;
+  border-radius: 0;
+}
+#clio-search-type-form .active input.form-submit,
+.page-datasets-search ul.primary a.active {
+  background-color: #96bd0d;
+  background-image: none;
+}
+#clio-search-type-form input.form-submit,
+.page-datasets-search ul.primary a:hover, ul.primary a:focus {
+  background-color: #e9e9e9;
+}
+
+a#select-all-countries,
+a#deselect-all-countries {
+  color: #96bd0d;
+}
+
+fieldset.adjust-selection {
+  border: 0;
+  margin: 10px 0;
+  padding: 0;
+}
+fieldset.adjust-selection .fieldset-legend a {
+  font-family: "Questrial","Helvetica",sans-serif;
+  color: #b1007c;
+  text-transform: lowercase;
+  font-size: 16px;
+}

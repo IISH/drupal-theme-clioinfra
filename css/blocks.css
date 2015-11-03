@@ -126,10 +126,12 @@ h2.block-title { /* Block title */
   width: 460px;
   float: left;
 }
-#block-menu-menu-explore-discover {
+#block-menu-menu-explore-discover,
+#block-clio-blocks-download {
   margin-right: 20px;
 }
-#block-menu-menu-explore-discover h2.block-title {
+#block-menu-menu-explore-discover h2.block-title,
+#block-clio-blocks-download h2.block-title {
   color: #fff;
   background-color: #96BD0D;
   padding-left: 10px;
@@ -154,15 +156,66 @@ h2.block-title { /* Block title */
   display: inline-block;
   padding-right: 40px;
 }
+#block-clio-blocks-download .datasets-button {
+  float: left;
+  width: 100%;
+  height: 107px;
+}
+#block-clio-blocks-download .datasets-text {
+  float: left;
+  width: 300px;
+  margin-left: 10px;
+}
+#block-clio-blocks-download .datasets-text h3 {
+  color: #96bd0d;
+  margin-bottom: 10px;
+}
+#block-clio-blocks-download .datasets-img {
+  float: right;
+  margin-right: 20px;
+  height: 90px;
+}
+#block-clio-blocks-download .datasets-label {
+  float: right;
+  clear: right;
+  margin-right: 20px;
+  width: 90px;
+  background-color: #cade85;
+  text-align: center;
+}
+#block-clio-blocks-download a {
+  text-decoration: none;
+  color: #000;
+}
 
 /* Visualize */
-#block-clio-blocks-visualize h2.block-title {
+#block-clio-blocks-visualize h2.block-title,
+#block-clio-blocks-analyze h2.block-title {
   color: #fff;
   background-color: #B1007C;
   padding-left: 10px;
 }
 #block-clio-blocks-visualize p {
   margin: 0;
+}
+#block-clio-blocks-analyze .analyze-button {
+  float: left;
+  width: 90px;
+  margin-right: 95px;
+}
+#block-clio-blocks-analyze .analyze-button.button-last {
+  margin-right: 0;
+}
+#block-clio-blocks-analyze .analyze-label {
+  background-color: #FBCCEE;
+  text-align: center;
+}
+#block-clio-blocks-analyze .analyze-img {
+  height: 90px;
+}
+#block-clio-blocks-analyze a {
+  text-decoration: none;
+  color: #000;
 }
 
 #block-views-news-block-1 {
@@ -175,7 +228,7 @@ h2.block-title { /* Block title */
   height: 50px;
   padding: 5px;
   color: #fff;
-  font-size: 18px;
+  font-size: 15px;
   margin-bottom: 2px;
 }
 #block-views-news-block-1 .views-row a {
