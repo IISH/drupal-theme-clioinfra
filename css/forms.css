@@ -198,9 +198,6 @@ body.page-datasets-searchresults .filters {
 #clio-search-select-form .form-submit {
   margin-right: 10px; 
 }
-#clio-search-select-form .form-submit {
-  margin-top: 10px; 
-}
 
 #clio-search-select-form .form-item-year-min label,
 #clio-search-select-form .form-item-year-max label,
@@ -301,9 +298,10 @@ body.page-datasets-searchresults .filters {
   margin: 1.5em 0;
   color: #666;
 }
-.page-datasets-search .select-help {
-  margin: 1.5em 0;
+.select-help {
+  margin: 1em 0 0;
   color: #666;
+  font-family: "Questrial","Helvetica",sans-serif;
 }
 
 #clio-search-type-form {
@@ -346,4 +344,16 @@ body.page-datasets-searchresults .filters {
 a#select-all-countries,
 a#deselect-all-countries {
   color: #96bd0d;
+}
+
+fieldset.adjust-selection {
+  border: 0;
+  margin: 10px 0;
+  padding: 0;
+}
+fieldset.adjust-selection .fieldset-legend a {
+  font-family: "Questrial","Helvetica",sans-serif;
+  color: #b1007c;
+  text-transform: lowercase;
+  font-size: 16px;
 }
