@@ -235,6 +235,8 @@ body.page-datasets-searchresults .filters {
 }
 #clio-search-select-form .form-item-country .ms-container .ms-selection {
   margin-top: 0.15em;
+}
+#clio-search-select-form .form-item-country .ms-container .ms-selection .leave {
   font-size: 12px;
   color: #aaa;
   font-family: "Questrial","Helvetica",sans-serif;
@@ -242,7 +244,7 @@ body.page-datasets-searchresults .filters {
 .page-datasets-search-historical #clio-search-select-form .form-item-country .ms-container .ms-selectable {
   margin-top: 0.3em;
 }
-.page-datasets-search-historical #clio-search-select-form .form-item-country .ms-container .ms-selectable input {
+.page-datasets-search-historical #clio-search-select-form .typeahead-field .form-item-country .ms-container .ms-selectable input {
   width: 100%;
 }
 #clio-search-select-form #ms-edit-indicator .ms-selection,
