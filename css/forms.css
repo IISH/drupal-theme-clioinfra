@@ -233,6 +233,20 @@ body.page-datasets-searchresults .filters {
 #clio-search-select-form .ms-container .ms-selection {
   margin-top: 1.6em;
 }
+#clio-search-select-form .form-item-country .ms-container .ms-selection {
+  margin-top: 0.15em;
+}
+#clio-search-select-form .form-item-country .ms-container .ms-selection .leave {
+  font-size: 12px;
+  color: #aaa;
+  font-family: "Questrial","Helvetica",sans-serif;
+}
+.page-datasets-search-historical #clio-search-select-form .form-item-country .ms-container .ms-selectable {
+  margin-top: 0.3em;
+}
+.page-datasets-search-historical #clio-search-select-form .typeahead-field .form-item-country .ms-container .ms-selectable input {
+  width: 100%;
+}
 #clio-search-select-form #ms-edit-indicator .ms-selection,
 #clio-search-select-form #ms-edit-indicator .ms-selectable {
   width: 46%;
@@ -298,10 +312,14 @@ body.page-datasets-searchresults .filters {
   margin: 1.5em 0;
   color: #666;
 }
-.select-help {
+.select-help,
+.select-disclaimer {
   margin: 1em 0 0;
   color: #666;
   font-family: "Questrial","Helvetica",sans-serif;
+}
+.select-disclaimer {
+  float: left;
 }
 
 #clio-search-type-form {
@@ -357,3 +375,4 @@ fieldset.adjust-selection .fieldset-legend a {
   text-transform: lowercase;
   font-size: 16px;
 }
+
